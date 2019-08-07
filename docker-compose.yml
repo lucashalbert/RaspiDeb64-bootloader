@@ -1,0 +1,9 @@
+version: '2'
+services:
+  builder:
+    build: .
+    environment:
+    - WORKDIR=/workdir
+    - BUILDS=/workdir/builds
+    volumes:
+    - ./builds:/workdir/builds

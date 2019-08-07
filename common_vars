@@ -1,0 +1,6 @@
+WORKDIR=/workdir
+BUILDS=${WORKDIR}/builds
+FIRMWARE_DIR=${WORKDIR}/firmware
+FIRMWARE_REPO=https://www.github.com/raspberrypi/firmware
+BRANCH=master
+BUILD_VER=0.0.1
